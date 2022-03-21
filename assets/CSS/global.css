@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #96BB7C;
+    --secondary-color: #F3CD03;
+    --secondary-color-1: #FFAB71;
+    --secondary-color-2: #FF7171;
+    --text-color: #252B42;
+    --danger-color: #E74040;
+    --light-background: #FFFFFF;
+    --light-text-color: #FFFFFF;
+    --light-gray-1: #FAFAFA;
+    --primary-text-color: #96BB7C;
+    --second-text-color: #737373;
+}
+
+section {
+    width: 100% !important;
+}
+
+.text-primary {
+    color: var(--primary-text-color);
+}
+.text-secondary {
+    color: var(--second-text-color);
+}
+.headline {
+    color: var(--text-color);
+    font-weight: 900;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 5px 16px;
+    margin: 2px 5px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+}
+.bg-danger {
+    background-color: var(--danger-color);
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--danger-color);
+}
+.btn-small {
+    width: 100;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+.btn-secondary {
+    background-color: var(--light-gray-1);
+    color: var(--primary-color);
+    border: solid 2px var(--primary-color);
+}
+section.hero, .nav-bar, .cards-container {
+    background-color: var(--light-gray-1);
+}
