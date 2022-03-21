@@ -45,3 +45,7 @@
 .card .icon img {
     width: 40px;
 }
+.stat {
+    text-align: center;
+    margin: 20px 0;
+}

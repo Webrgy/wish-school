@@ -28,8 +28,11 @@ section {
 .text-secondary {
     color: var(--second-text-color);
 }
-.headline {
+.text {
     color: var(--text-color);
+}
+.headline {
+    /* color: var(--text-color); */
     font-weight: 900;
 }
 .btn {
@@ -51,7 +54,7 @@ section {
     background-color: var(--danger-color);
 }
 .btn-small {
-    width: 100;
+    width: 100px;
 }
 .btn-primary {
     background-color: var(--primary-color);
