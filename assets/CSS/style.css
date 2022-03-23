@@ -4,18 +4,12 @@
 .hero {
     height: auto;
 }
-.cards {
-    bottom: 0;
-}
 @media (min-width: 1024px) {
     .nav-bar-items {
         display: flex;
     }
     .hero {
         height: 100vh;
-    }
-    .cards {
-         bottom: 5%;
     }
 }
 @media only screen and (max-width: 1024px) {

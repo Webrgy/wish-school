@@ -73,7 +73,7 @@ section {
     color: var(--primary-color);
     border: solid 2px var(--primary-color);
 }
-section.hero, .nav-bar, .cards-container {
+section.hero, .nav-bar, .about-us-cards {
     background-color: var(--light-gray-1);
 }
 section.courses {
