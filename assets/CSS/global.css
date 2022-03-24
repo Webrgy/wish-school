@@ -79,7 +79,7 @@ section {
     color: var(--primary-color);
     border: solid 2px var(--primary-color);
 }
-section.hero, .nav-bar, .about-us-cards {
+section.hero, .nav-bar, .about-us-cards, .copyrights {
     background-color: var(--light-gray-1);
 }
 section.courses {
@@ -97,4 +97,7 @@ input {
 }
 input:active , input:focus {
     outline: none;
+}
+footer {
+    padding-top: 80px;
 }

@@ -94,3 +94,10 @@
 .team-card-footer ul li {
     cursor: pointer;
 }
+.footer .footer-content .flex .col ul li {
+    margin: 10px 0;
+}
+.social-media-icons li {
+    margin: 5px;
+    cursor: pointer;
+}
