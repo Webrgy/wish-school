@@ -43,10 +43,11 @@
     text-align: center;
     margin: 20px 0;
 }
-.row-centerd {
+.row-centered {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 .course-card {
     background-color: #fff;
@@ -77,6 +78,13 @@
     align-items: center;
     cursor: pointer;
 }
-.fa-star {
+.fa-star, .fa-star-half {
     color: #FFCE31;
+}
+.feedback-card {
+    background-color: #FFF;
+    padding: 30px 15px;
+}
+.feedback-card-header ul li {
+    margin: 0 5px;
 }
