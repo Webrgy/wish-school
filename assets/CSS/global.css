@@ -89,3 +89,12 @@ section.courses {
     width: 50px;
     height: 26px;
 }
+input {
+    height: 56px;
+    background-color: #E6E6E6;
+    color: var(--second-text-color);
+    padding: 0;
+}
+input:active , input:focus {
+    outline: none;
+}
