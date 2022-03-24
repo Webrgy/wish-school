@@ -48,3 +48,35 @@
     justify-content: center;
     align-items: center;
 }
+.course-card {
+    background-color: #fff;
+    margin: 15px;
+    width: 330px;
+    
+}
+.course-card-header {
+    height: 300px;
+}
+.danger-badge {
+    top: 5px;
+    left: 5px;
+}
+.shoping-items {
+    bottom: 5px;
+    left: 30%;
+}
+.shoping-items ul li {
+    margin: 0 5px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-star {
+    color: #FFCE31;
+}

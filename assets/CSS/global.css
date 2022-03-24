@@ -34,6 +34,9 @@ section {
 .text {
     color: var(--text-color);
 }
+.secondary-color-1 {
+    color: var(--secondary-color-1);
+}
 .headline {
     /* color: var(--text-color); */
     font-weight: 900;
@@ -50,6 +53,9 @@ section {
 }
 .bg-danger {
     background-color: var(--danger-color);
+}
+.bg-text-color {
+    background-color: var(--text-color);
 }
 .line {
     width: 50px;
@@ -78,4 +84,8 @@ section.hero, .nav-bar, .about-us-cards {
 }
 section.courses {
     background-color: var(--faded-secondary-color);
+}
+.rates {
+    width: 50px;
+    height: 26px;
 }
