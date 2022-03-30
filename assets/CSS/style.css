@@ -15,6 +15,19 @@
 @media only screen and (max-width: 1024px) {
     .nav-bar-items {
         display: none;
+        width: 100%;
+        background-color: #FAFAFA;
+        position: fixed;
+        top: 80px;
+        z-index: 5;
+        height: 100vh;
+        
+    }
+    .nav-bar-items ul {
+        display: flex;
+        flex-direction: column;
+    } .nav-bar-items ul li {
+        margin: 10px 0;
     }
 }
 .card {
