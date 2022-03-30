@@ -1,5 +1,8 @@
 const navbarSwitch = document.querySelector(".nav-bar-switch i");
 const navBarItems = document.querySelector(".nav-bar-items");
+const stats = document.querySelectorAll(".stat");
+const coursCards = document.querySelectorAll('.course-card');
+const aosElements = document.querySelectorAll("[data-aos]");
 
 let isOpen = false;
 
@@ -25,4 +28,15 @@ navBarItems.addEventListener("resize", () => {
         navBarItems.style.display = "none !important";
     }
 })
+//counterUp
 
+//AOS
+stats.forEach(stat => {
+    stat.setAttribute("data-aos","fade-down");
+})
+coursCards.forEach(card => {
+    card.setAttribute("data-aos","fade-down");
+})
+aosElements.forEach(e => {
+    e.setAttribute("data-aos-duration","1500");
+})
